@@ -6,6 +6,8 @@
 // @author       tonmoydeb404
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @downloadURL  https://github.com/tonmoydeb404/auto-skip-ad/raw/main/Auto-Skip-Ad.user.js
+// @updateURL    https://github.com/tonmoydeb404/auto-skip-ad/raw/main/Auto-Skip-Ad.user.js
 // @grant        none
 // ==/UserScript==
 
