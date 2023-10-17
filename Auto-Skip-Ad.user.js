@@ -36,9 +36,6 @@
    * @param {Element} media
    */
   const adHandler = (media) => {
-    // abort function if media is not a valid element
-    if (!media) return;
-
     // movie player element
     const moviePlayer = document.querySelector("#movie_player");
 
