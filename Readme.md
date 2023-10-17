@@ -23,7 +23,7 @@ By using this script, you can make your online experience more enjoyable without
    - [Tampermonkey for Opera/OperaGX](https://addons.opera.com/en-gb/extensions/details/tampermonkey-beta/)
 
 2. **Install Our Script**:
-   Click [here](https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js) to install our script.
+   Click [here](https://github.com/tonmoydeb404/auto-skip-ad/raw/main/index.js) to install our script.
 
 ## Contributor:
 
