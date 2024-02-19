@@ -47,7 +47,7 @@
       // waiting to click skip button
       setTimeout(() => {
         // make sure skip button is available & not disabled
-        const skipBtn = document.querySelector("button.ytp-ad-skip-button");
+        const skipBtn = document.querySelector("button.ytp-ad-skip-button-modern");
         if (!skipBtn) return;
 
         // skip the ad
