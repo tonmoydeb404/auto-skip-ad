@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Skip Ad
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  automatic skip youtube ads!
 // @author       tonmoydeb404
 // @match        https://www.youtube.com/*
@@ -24,6 +24,7 @@
   // constant values.
   const AD_CLASS = "ad-showing";
   const SKIP_TIME = 5000;
+  const SKIP_BUTTON_CLASS = "ytp-skip-ad-button";
 
   /**
    * get the video element
@@ -47,7 +48,7 @@
       // waiting to click skip button
       setTimeout(() => {
         // make sure skip button is available & not disabled
-        const skipBtn = document.querySelector("button.ytp-ad-skip-button-modern");
+        const skipBtn = document.querySelector(`button.${SKIP_BUTTON_CLASS}`);
         if (!skipBtn) return;
 
         // skip the ad
